@@ -1,0 +1,21 @@
+{
+  "name": "platziverse-db",
+  "version": "0.1.0",
+  "description": "El modulo de base de datos para platziverse",
+  "main": "index.js",
+  "scripts": {
+    "setup": "DEBUG=platziverse:* node setup.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "author": "Andres Vera",
+  "license": "MIT",
+  "devDependencies": {
+    "pg": "^7.4.3",
+    "sequelize": "^4.37.10",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
+}
